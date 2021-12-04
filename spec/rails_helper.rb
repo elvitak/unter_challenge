@@ -19,5 +19,5 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
 
   config.include FactoryBot::Syntax::Methods
-  config.include Shoulda::Matchers::ActiceRecord, type: :model
+  config.include Shoulda::Matchers::ActiveRecord, type: :model
 end
