@@ -89,10 +89,12 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
     nio4r (2.5.8)
-    nokogiri (1.12.5-x86_64-darwin)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     pg (1.2.3)
     pry (0.14.1)
@@ -155,8 +157,8 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.3)
-    shoulda-matchers (5.0.0)
-      activesupport (>= 5.2.0)
+    shoulda-matchers (4.5.1)
+      activesupport (>= 4.2.0)
     spring (3.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -174,7 +176,7 @@ GEM
     zeitwerk (2.5.1)
 
 PLATFORMS
-  x86_64-darwin-19
+  ruby
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
@@ -190,7 +192,7 @@ DEPENDENCIES
   spring
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 2.5.1p57
 
 BUNDLED WITH
-   2.2.31
+   1.17.3
