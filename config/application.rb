@@ -28,7 +28,7 @@ module UnterChallenge
       allow do
         origins '*'
         resource '*',
-                 headers: any,
+                 headers: :any,
                  methods: %w[get post put delete]
       end
     end
