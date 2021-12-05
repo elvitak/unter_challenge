@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
+ruby '2.7.5'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'pg', '~> 1.1'
@@ -14,6 +14,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
+  gem 'codeclimate'
+  gem 'simplecov', require: false
 end
 
 group :development do
