@@ -15,3 +15,8 @@
 > As a development team  
 > In order to see how much of our code is covered in tests  
 > We would like to measure test coverage using a remote service
+
+> As a development team  
+> In order to automate the deployment process during development  
+> We would like all code that has been merged into the main code base, to be
+> deployed to a server
